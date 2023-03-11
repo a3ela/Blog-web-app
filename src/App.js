@@ -2,12 +2,16 @@
 import Home from "./container/Home";
 import Navbar from "./components/Navbar";
 import Single from "./container/Single";
+import Write from "./container/Write";
+import Settings from "./container/Settings";
 function App() {
   return (
     <div className="App">
       <Navbar />
       {/* <Home /> */}
-      <Single />
+      {/* <Single /> */}
+      {/* <Write /> */}
+      <Settings />
     </div>
   );
 }

@@ -11,8 +11,11 @@ const Singlepost = () => {
         <img src={profile} alt="" />
         <h1 className="single-post-title">
           Lorem ipsum dolor sit.
-          <BiEditAlt />
-          <AiOutlineDelete />
+          <span className="single-post-edit">
+            {" "}
+            <BiEditAlt />
+            <AiOutlineDelete />
+          </span>
         </h1>
         <div className="single-post-info">
           <span className="single-post-author">
@@ -20,7 +23,7 @@ const Singlepost = () => {
           </span>
           <span className="single-post-date">1 hour ago</span>
         </div>
-        <p>
+        <p className="single-post-desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
           nostrum aspernatur facere quisquam consequatur cum aliquid provident
           accusantium est corrupti dolorem eum praesentium quaerat, officia
