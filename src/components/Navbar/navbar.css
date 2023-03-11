@@ -1,0 +1,50 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background: var(--primary-clr);
+  color: var(--white);
+  position: sticky;
+
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "josefin sans", sans-serif;
+  z-index: 9999;
+}
+.topleft,
+.topright {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topleft svg {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.list-item {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.topcenter {
+  flex: 6;
+}
+.topright .profile-img {
+  width: 50px;
+  height: 42px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+}
+.topright svg {
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 15px;
+}
